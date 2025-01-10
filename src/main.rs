@@ -12,7 +12,7 @@ InitControllersRoot!{
 #[tokio::main]
 async fn main() {
 
-    let  configs = ServerConfigurations::bind("127.0.0.1",8084);
+    let  configs = ServerConfigurations::bind("0.0.0.0",80);
 
     water_http::RunServer!(
        configs,
