@@ -944,9 +944,9 @@ dependencies = [
 
 [[package]]
 name = "water_http"
-version = "2.0.6"
+version = "2.0.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2e6c020237ee89fc7f5cbcb00cf61903501dd10e996fbd856f5f8f2430c871d"
+checksum = "653f5c8b28e3264ed2db1e7c3654bf98ff23d3d34199a6ef6c57655056258e84"
 dependencies = [
  "brotli",
  "byteorder",
