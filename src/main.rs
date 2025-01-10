@@ -13,7 +13,7 @@ InitControllersRoot!{
 async fn main() {
 
     let  configs = ServerConfigurations::bind("0.0.0.0",80);
-
+    println!("listening on port 80");
     water_http::RunServer!(
        configs,
        MAIN_ROOT,
